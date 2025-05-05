@@ -1,0 +1,141 @@
+/* tam ekran koyu overlay */
+.auth-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+  }
+  
+  /* modal kutu */
+  .auth-modal {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background: #1b1b1b;
+    padding: 24px;
+    border-radius: 8px;
+    color: #eee;
+    font-family: sans-serif;
+  }
+  
+  /* kapatma çarpısı */
+  .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* başlık ve alt başlık */
+  .auth-title {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .auth-subtitle {
+    margin: 8px 0 20px;
+    text-align:center;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  /* form alanları */
+  .auth-form .field {
+    margin-bottom: 16px;
+  }
+  .auth-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  .auth-form input {
+    width: 100%;
+    padding: 10px 12px;
+    background: #2b2b2b;
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.95rem;
+  }
+  .auth-form input::placeholder {
+    color: #666;
+  }
+  .auth-form .error {
+    color: #f66;
+    font-size: 0.8rem;
+    margin-top: 4px;
+    display: block;
+  }
+  
+  /* birincil buton */
+  .btn-primary {
+    width: 100%;
+    padding: 12px;
+    background: #fff;
+    color: #111;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 8px;
+  }
+  .btn-primary:hover {
+    background: #eee;
+  }
+  
+  /* OR separator */
+  .or-separator {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .or-separator span {
+    margin: 0 12px;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .or-separator::before,
+  .or-separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #333;
+  }
+  
+  /* ikinci buton */
+  .btn-secondary {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    color: #eee;
+    border: 1px solid #555;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    cursor: pointer;
+  }
+  .btn-secondary:hover {
+    background: rgba(255,255,255,0.05);
+  }
+  
+  /* alt metin */
+  .auth-terms {
+    margin-top: 16px;
+    font-size: 0.75rem;
+    color: #666;
+    text-align: center;
+  }
+  .auth-terms a {
+    color: #bbb;
+    text-decoration: underline;
+  }
+  

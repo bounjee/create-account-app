@@ -1,0 +1,25 @@
+[
+  {
+    "firstName": "asd",
+    "lastName": "asd",
+    "email": "asdasd123@gmail.com",
+    "password": "asdasd123",
+    "confirmPassword": "asdasd123",
+    "dob": "2025-05-22"
+  },
+  {
+    "firstName": "xa",
+    "lastName": "xa",
+    "email": "xa@gmail.com",
+    "password": "asdasd123",
+    "confirmPassword": "asdasd123",
+    "dob": "2025-05-03"
+  },
+  {
+    "firstName": "asd",
+    "lastName": "asd",
+    "email": "asdasd1232@gmail.com",
+    "password": "asdasd123",
+    "confirmPassword": "asdasd123"
+  }
+]

@@ -1,0 +1,163 @@
+/* src/pages/auth.css */
+
+/* Tam ekran arka plan */
+.auth-overlay {
+    position: fixed;
+    inset: 0;
+    background: #010102;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    z-index: 100;
+  }
+  
+  /* Kutu */
+  .auth-modal {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    background: #09090b;
+    padding: 24px;
+    border-radius: 8px;
+    color: #eee;
+    font-family: sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Kapatma butonu */
+  .close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: transparent;
+    border: none;
+    color: #aaa;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Başlık & Altbaşlık */
+  .auth-modal h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .auth-modal p.subtitle {
+    margin: 8px 0 24px;
+    text-align: center;
+    color: #888;
+    font-size: 0.9rem;
+  }
+  
+  /* Form alanları */
+  .auth-form .field {
+    margin-bottom: 20px;
+  }
+  .auth-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+    color: #ddd;
+  }
+  
+  /* Input’lar: eşit sol-sağ padding ve box-sizing */
+  .auth-form input {
+    width: 100%;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    background: #121214;
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 0.95rem;
+  }
+  .auth-form input::placeholder {
+    color: #555;
+  }
+  
+  /* Hata mesajı */
+  .auth-form small.error {
+    display: block;
+    margin-top: 4px;
+    color: #f66;
+    font-size: 0.8rem;
+  }
+  
+  /* Birincil buton */
+  .btn-primary {
+    width: 100%;
+    padding: 14px;
+    background: #fff;
+    color: #111;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: background 0.2s;
+  }
+  .btn-primary:hover {
+    background: #eee;
+  }
+  
+  /* “Or” ayracı */
+  .or-separator {
+    display: flex;
+    align-items: center;
+    margin: 24px 0;
+  }
+  .or-separator span {
+    margin: 0 12px;
+    color: #666;
+    font-size: 0.9rem;
+  }
+  .or-separator::before,
+  .or-separator::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #333;
+  }
+  
+  /* İkincil buton */
+  .btn-secondary {
+    width: 100%;
+    padding: 14px;
+    background: transparent;
+    color: #eee;
+    border: 1px solid #555;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+  
+  /* Alt link metni */
+  .link-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #888;
+  }
+  .link-text a {
+    color: #bbb;
+    text-decoration: underline;
+  }
+  
+  /* Terms metni */
+  .auth-terms {
+    margin-top: 12px;
+    font-size: 0.75rem;
+    color: #666;
+    text-align: center;
+  }
+  .auth-terms a {
+    color: #bbb;
+    text-decoration: underline;
+  }
+  
